@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(
+        180deg,
+        #2f6ed3 5%,
+        #5095e4 20%,
+        #5095e4 60%,
+        #2f6ed3 95%
+    );
+    height: 100vh;
+}
+
+main {
+    padding-top: 300px;
+    width: 100%;
+    display: flex;
+}
+
+main section {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main section h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+main section img {
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+footer span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
